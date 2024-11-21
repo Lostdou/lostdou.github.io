@@ -1,0 +1,43 @@
+.navbar-container {
+    display: flex;
+    justify-content: center; 
+    position: fixed;
+    top: 20px; 
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    width: 100%;
+  }
+  
+  .nav-link {
+    color: azure;
+    font-family: 'Press Start 2P';
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 5px;
+  }
+  
+  .nav-link:hover {
+    background-color: #27313b;
+    color: #fff;
+  }
+  
+  h3 {
+    font-family: 'Press Start 2P', cursive; /* Replace with your chosen font */
+    color: purple;
+    margin-top: 15px;
+}
+
+  
