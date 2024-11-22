@@ -8,13 +8,14 @@
     width: 100%;
     z-index: 1000;
   }
-  
+
   .navbar {
     display: flex;
     justify-content: space-around;
     padding: 10px 30px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.411);
     max-width: 900px;
     width: 100%;
   }
@@ -34,6 +35,18 @@
     color: #fff;
   }
   
+  .video-background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    filter: brightness(0.3); 
+}
+
   h3 {
     font-family: 'Press Start 2P', cursive; /* Replace with your chosen font */
     color: purple;
