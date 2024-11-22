@@ -37,14 +37,15 @@
   
   .video-background {
     position: fixed;
-    right: 0;
-    bottom: 0;
-    width: auto;
-    height: auto;
-    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
     object-fit: cover;
-    filter: brightness(0.3); 
+    filter: brightness(0.3);
 }
+
 
   h3 {
     font-family: 'Press Start 2P', cursive; /* Replace with your chosen font */
