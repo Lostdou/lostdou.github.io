@@ -35,6 +35,10 @@
     color: #fff;
   }
 
+.content-container { position: relative; 
+            z-index: 1; 
+           }
+
 html, body {
     margin: 0;
     padding: 0;
@@ -53,7 +57,8 @@ html, body {
          z-index: -100; 
          transform: translate(-50%, -50%); 
          background: no-repeat; 
-         background-size: cover; }
+         background-size: cover; 
+         filter: brightness(0.3);}
 
   h3 {
     font-family: 'Press Start 2P', cursive; /* Replace with your chosen font */
